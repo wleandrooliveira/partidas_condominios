@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @partida.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @partida.description %>
+</p>
+
+<p>
+  <strong>Local:</strong>
+  <%= @partida.local %>
+</p>
+
+<p>
+  <strong>Data partida:</strong>
+  <%= @partida.data_partida %>
+</p>
+
+<%= link_to 'Edit', edit_partida_path(@partida) %> |
+<%= link_to 'Back', partidas_path %>
